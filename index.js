@@ -52,6 +52,8 @@ const sum = numbers.reduce((acc, num) => acc + num, 0);
 const average = sum / numbers.length;
 const positiveSum = numbers.filter(num => num > 0).reduce((acc, num) => acc + num, 0);
 
+
+
 allNumbers.innerHTML = listAllNumbers; 
 squaresNumbers.innerHTML = listSquaresNumbers; 
 negativeNumbers.innerHTML = listNegativeNumbers; 
